@@ -4,7 +4,34 @@
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
+📦 TypeORM + PostgreSQL Setup (No CRUD)
+This project is a minimal boilerplate setup for connecting a Node.js application to a PostgreSQL database using TypeORM.
+It focuses solely on configuring the database connection and defining entities — no CRUD APIs or business logic are included.
 
+🎯 Purpose
+- Practice setting up a PostgreSQL database connection using TypeORM
+
+- Learn how to define and manage entities
+
+- Ensure the database tables are created correctly without any additional functionality
+
+📚 Tech Stack
+- Node.js
+
+- TypeScript
+
+- PostgreSQL
+
+- TypeORM
+
+# 📁 Features
+- Connect to a local PostgreSQL database
+
+- Define entities using decorators
+
+- Auto-generate database schema using synchronize: true
+
+- No controllers, routes, or CRUD logic — purely database setup
   <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
     <p align="center">
 <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
